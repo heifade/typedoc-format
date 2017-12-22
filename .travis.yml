@@ -3,10 +3,7 @@ sudo: enabled
 node_js:
   - "8"
 script:
-  - npm test
   - npm run build
-after_script:
-  - npm run test-nyc
 
 cache:
   directories:
