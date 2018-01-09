@@ -1,8 +1,7 @@
-import { ProjectConfigModel } from 'pcreate-config';
-
+import { ProjectConfigModel } from "pcreate-config";
 
 let projectConfig: ProjectConfigModel = {
-  projectType: 'node',
+  projectType: "node",
   compile: {
     outDir: "./es/",
     module: "commonjs",
@@ -13,6 +12,6 @@ let projectConfig: ProjectConfigModel = {
   documents: false,
   unitTest: false,
   sourceInclude: ["./src/**/*"]
-}
+};
 
 export default projectConfig;
