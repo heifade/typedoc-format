@@ -11,7 +11,8 @@ let projectConfig: ProjectConfigModel = {
   },
   command: false,
   documents: false,
-  unitTest: false
+  unitTest: false,
+  sourceInclude: ["./src/**/*"]
 }
 
 export default projectConfig;
