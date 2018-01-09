@@ -1,9 +1,15 @@
-import { IProjectConfig } from './src/model/IProjectConfig';
+import { ProjectConfigModel } from 'pcreate-config';
 
 
-let projectConfig: IProjectConfig = {
+let projectConfig: ProjectConfigModel = {
   projectType: 'node',
-  command: true,
+  compile: {
+    outDir: "./es/",
+    module: "commonjs",
+    target: "ESNEXT",
+    declaration: true
+  },
+  command: false,
   documents: true,
   unitTest: false
 }

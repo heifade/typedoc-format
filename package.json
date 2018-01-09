@@ -1,6 +1,6 @@
 {
   "name": "typedoc-format",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "typedoc-format",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -9,10 +9,10 @@
     "es"
   ],
   "dependencies": {
-    "fs-i": "^1.0.3"
+    "fs-i": "^1.0.3",
+    "pcreate-config": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^2.6.1",
     "fs-extra": "^5.0.0"
   },
   "scripts": {
