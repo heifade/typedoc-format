@@ -5,12 +5,13 @@ let projectConfig: ProjectConfigModel = {
   compile: {
     outDir: "./es/",
     module: "commonjs",
-    target: "ESNEXT",
+    target: "es5",
+    lib: ["es2015", "es2015.promise", "es2015.symbol"],
     declaration: true
   },
   command: false,
-  documents: false,
-  unitTest: false,
+  documents: true,
+  unitTest: true,
   sourceInclude: ["./src/**/*"]
 };
 
