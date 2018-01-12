@@ -1,6 +1,6 @@
 {
   "name": "typedoc-format",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "typedoc-format",
   "main": "./es/index.js",
   "module": "./es/index.js",
@@ -13,11 +13,10 @@
     "url": "git+https://github.com/heifade/typedoc-format.git"
   },
   "dependencies": {
-    "fs-i": "^1.1.10"
+    "fs-i": "^1.2.1"
   },
   "devDependencies": {
-    "@types/node": "^9.3.0",
-    "pcreate-config": "^1.0.16"
+    "pcreate-config": "^1.1.1"
   },
   "scripts": {
     "build": "pcreate build",
