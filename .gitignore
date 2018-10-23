@@ -6,6 +6,7 @@
 # production
 /es
 /docs
+/lib
 
 # misc
 .DS_Store
