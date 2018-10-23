@@ -1,6 +1,6 @@
 {
   "name": "typedoc-format",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "typedoc-format",
   "main": "./lib/index.js",
   "module": "./es/index.js",
