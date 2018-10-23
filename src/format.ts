@@ -1,5 +1,7 @@
 // 替换 doc 目录下面所有"_" 打头的文件
-import { getAllFiles, saveFileUtf8Sync, readFileUtf8Sync, renameSync } from "fs-i";
+import { getAllFiles, saveFileUtf8Sync, readFileUtf8Sync } from "fs-i";
+
+import { renameSync } from "fs";
 
 let renameFileList: {
   sourceName: string;
