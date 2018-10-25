@@ -1,13 +1,14 @@
 {
   "name": "typedoc-format",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "typedoc-format",
   "main": "./lib/index.js",
   "module": "./es/index.js",
-  "typings": "./es/index",
+  "typings": "./ts/index.d.ts",
   "files": [
     "es",
-    "lib"
+    "lib",
+    "ts"
   ],
   "repository": {
     "type": "git",
@@ -17,10 +18,11 @@
   "devDependencies": {
     "@types/node": "^10.12.0",
     "fs-i": "^1.2.4",
-    "happywork-node-builder": "^1.0.51"
+    "happywork-node-builder": "^1.0.51",
+    "typescript": "^3.1.3"
   },
   "scripts": {
-    "build": "happywork-node-builder build --doc"
+    "build": "happywork-node-builder build --doc && tsc"
   },
   "keywords": [
     "typedoc-format"
